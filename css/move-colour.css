@@ -1,0 +1,141 @@
+/* Background */
+
+.fill-primary       {background:#00D7DE}
+.fill-secondary     {background:#1B1A43}
+.fill-blue          {background:#3ba0ff;}
+.fill-offwhite      {background:#F2F4F8;}
+.fill-purple        {background:#8A8ACB}
+.fill-red           {background:#E55E5E}
+.fill-green         {background:#86CF51;}
+.fill-darkblue      {background-color:#348de1}
+.fill-aqua          {background-color:#88FED4; }
+.fill-dark          {background-color:#404040; }
+.fill-gray,
+.fill-grey        { background:#eee; }
+.fill-grey-dark,
+.fill-gray-dark     {background:#404040;}
+.fill-white         {background:#fff;}
+.fill-light         {background:#f8f8f8;}
+.fill-pale          {background:#f2f4f8;}
+.fill-warning       {background:#eb5055;}
+.fill-premium       {background: #DAA520;}
+.fill-red           {background:#e7252b;}
+.fill-other         {background-color: #CCCCCC}
+.fill-bluedark      {background-color:#233445}
+.fill-warning       {background-color:#ff5a5f}
+.fill-twitter       {background-color:#03c5ff}
+.fill-facebook      {background-color:#3b5998}
+.fill-facebookop    {background-color:rgba(59,89,152,0.8)}
+.fill-lightblue     {background-color:#bfe4f9}
+.fill-denim         {background:#3c4e5a; }
+.fill-navy          {background:#28353d; }
+.fill-navy-dark     {background:#222B30; }
+.fill-purple        {background:#8a8acb; }
+.fill-green         {background:#25b032; }
+.fill-lightgreen    {background:#21cd6a; }
+.fill-yellow        {background:#f1f075; }
+.fill-orange        {background:#ee8a65; }
+
+/* Opacity */
+
+.fill-darken0 { background:rgba(0,0,0,0.05);}
+.fill-darken1 { background:rgba(0,0,0,0.25);}
+.fill-darken2 { background:rgba(0,0,0,0.50);}
+.fill-darken3 { background:rgba(0,0,0,0.75);}
+.fill-darken4 { background:rgba(0,0,0,0.85);}
+.fill-darken4 { background:rgba(0,0,0,0.95);}
+
+.fill-lighten0 { background:rgba(255,255,255,0.10); }
+.fill-lighten1 { background:rgba(255,255,255,0.25); }
+.fill-lighten2 { background:rgba(255,255,255,0.50); }
+.fill-lighten3 { background:rgba(255,255,255,0.75); }
+.fill-lighten4 { background:rgba(255,255,255,0.85); }
+.fill-lighten5 { background:rgba(255,255,255,0.95); }
+
+.opacity3{ opacity:0.3}
+.opacity5{ opacity:0.5}
+
+/* Shadow */
+
+.box-shadow {;-webkit-box-shadow: 10px 10px 5px -5px rgba(0,0,0,0.45); -moz-box-shadow: 10px 10px 5px -5px rgba(0,0,0,0.45);box-shadow: 5px 5px 10px -6px rgba(0,0,0,0.45);}
+
+/* Gradients */
+
+.gradient-black {background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.8) 100%);background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.8) 100%);background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.8) 100%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#bf000000',GradientType=0 );}
+.gradient-white {background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(255,255,255,1) 60%, rgba(255,255,255,1) 100%);background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 60%,rgba(255,255,255,1) 100%);
+background: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 60%,rgba(255,255,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 );}
+
+/* Text */
+
+.text-primary   {color:#00D7DE}
+.text-secondary {color:#1B1A43}
+.text-green     {color:#25b032}
+.text-other     {color: #CCCCCC}
+.text-red       {color:#e7252b; }
+.text-warning   {color:#eb5055; }
+.text-premium   {color: #DAA520;  }
+.text-purple     {color:#8a8acb}
+.text-orange     {color:#ee8a65}
+
+.text-white { color:#FFFFFF}
+a.text-white:hover { color:#eeeeee}
+.text-blue { color:#3ba0ff}
+
+/* Icons */
+
+.primary [class^="icon-"], .primary [class*=" icon-"] {color: #00D7DE;}
+.secondary [class^="icon-"], .secondary [class*=" icon-"] {color: #1B1A43;}
+.subtle [class^="icon-"], .subtle [class*=" icon-"] {color: #aaaaaa;}
+
+/* Keylines */
+
+.keyline-all    { border:1px solid #e0e0e0; }
+.keyline-top    { border-top:1px solid #e0e0e0; }
+.keyline-right  { border-right:1px solid #e0e0e0; }
+.keyline-bottom { border-bottom:1px solid #e0e0e0; }
+.keyline-left   { border-left:1px solid #e0e0e0; }
+
+.keyline-light-all    { border:1px solid  #f6f5f5 }
+.keyline-light-top    { border-top:1px solid  #f6f5f5 }
+.keyline-light-right  { border-right:1px solid  #f6f5f5 }
+.keyline-light-bottom { border-bottom:1px solid  #f6f5f5 }
+.keyline-light-left   { border-left:1px solid  #f6f5f5 }
+
+.keyline-white-all    { border:1px solid  #ffffff }
+.keyline-white-top    { border-top:1px solid  #ffffff }
+.keyline-white-right  { border-right:1px solid  #ffffff }
+.keyline-white-bottom { border-bottom:1px solid  #ffffff }
+.keyline-white-left   { border-left:1px solid  #ffffff }
+
+.dark .keyline-all    { border:1px solid rgba(255,255,255,0.25); }
+.dark .keyline-top    { border-top:1px solid rgba(255,255,255,0.25); }
+.dark .keyline-right  { border-right:1px solid rgba(255,255,255,0.25); }
+.dark .keyline-bottom { border-bottom:1px solid rgba(255,255,255,0.25); }
+.dark .keyline-left   { border-left:1px solid rgba(255,255,255,0.25); }
+
+.keyline-light        { border-top:1px solid #f6f5f5 ; }
+.keyline-white        { border:1px solid #ffffff; }
+.keyline-primary      { border:1px solid #00D7DE; }
+.keyline-secondary    { border:1px solid #1B1A43; }
+
+/* Borders */
+
+.border-bold-primary      {border: 2px solid #00D7DE}
+.border-bold-secondary    {border: 2px solid #1B1A43}
+.border-bold-blue         {border: 2px solid #3ba0ff}
+.border-bold-grey         {border: 2px solid #D9D9D9}
+
+.border-primary         {border: 1px solid #00D7DE}
+.border-secondary       {border: 1px solid #1B1A43}
+.border-purple          {border: 1px solid #8a8acb}
+.border-green           {border: 1px solid #25b032}
+.border-blue            {border: 1px solid #3ba0ff}
+.border-white           {border: 1px solid #ffffff}
+.border-grey            {border: 1px solid #D9D9D9}
+.border-other           {border-left: 2px solid  #CCCCCC}
+.border-red             {border: 1px solid  #e7252b }
+
+.border-secondary-top       {border-top: 1px solid #1B1A43}
+.border-secondary-bottom    {border-bottom: 1px solid #1B1A43}
+.border-primary-bottom    {border-bottom: 2px solid #00D7DE }
